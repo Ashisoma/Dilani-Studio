@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: white;
+}
+
+#home {
+    background-image:url("images/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
