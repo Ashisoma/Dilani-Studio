@@ -1,3 +1,5 @@
+
+
 .jumbotron {
     background-color: white;
 }
@@ -24,11 +26,6 @@
     background: rgba(0,0,0,o.5);
 }
 
-form {
-  
-
-}
-
 .home p {
     color: white;
 }
@@ -51,10 +48,26 @@ form {
 p {
     justify-content: center;
     align-items: center;
-
 }
 
 #socials {
     margin-top: 30px;
     align-items: center;
+}
+
+#p1-hide {
+    display: none;
+}
+
+#p2-hide {
+    display: none;
+}
+
+#p3-hide {
+    display: none;
+}
+
+ #logo {
+    padding-top: 20px;
+    margin-top: 21px;
 }
