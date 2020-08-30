@@ -30,7 +30,12 @@ $(document).ready(function(){
         $("#project").hide()
     });
 });
-
+$(document).ready(function(){
+    $("#p3-hide").click(function(){
+        $("#project").toggle()
+        $("#p3-hide").toggle()
+    });
+});
  
 
   
