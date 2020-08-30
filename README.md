@@ -12,5 +12,5 @@ To visit our website and check out our designs, just follow the simple steps bel
 3. Finally click on this link https://ashisoma.github.io/Dilani-Studio/
 
 ## Technology Used
-The programminglanguages used to build this website are HTML and css fpr tyhe front end. For back-end, jQUERY was used and alos to make the web page interactive
+The programming languages used to build this website are HTML and css for the front end. For back-end, jQuery was used and also to make the web page interactive to the user. 
 
