@@ -19,6 +19,12 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
+    $("#p2-hide").click(function(){
+        $("#devpt").toggle()
+        $("#p2-hide").toggle()
+    });
+});
+$(document).ready(function(){
     $("#project").click(function(){
         $("#p3-hide").show()
         $("#project").hide()
