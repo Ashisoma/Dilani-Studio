@@ -1,9 +1,16 @@
 $(document).ready(function(){
     $("#design").click(function(){
-        $("#p1-hide").show()
-        $("#design").hide()
+        $("#p1-hide").toggle()
+        $("#design").toggle()
     });
 });
+$(document).ready(function(){
+    $("#p1-hide").click(function(){
+        $("#design").toggle()
+        $("#p1-hide").toggle()
+    });
+});
+
 
 $(document).ready(function(){
     $("#devpt").click(function(){
