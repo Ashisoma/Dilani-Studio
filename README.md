@@ -14,3 +14,7 @@ To visit our website and check out our designs, just follow the simple steps bel
 ## Technology Used
 The programming languages used to build this website are HTML and css for the front end. For back-end, jQuery was used and also to make the web page interactive to the user. 
 
+### Licence
+* MIT Licencing
+Copyright (c) 2020, **Onesmus Okali**
+
