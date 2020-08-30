@@ -4,7 +4,7 @@
 #### By **Onesmus Okali**
 
 # Description
-
+This is a website on the various web design and creation to also creation of applications for varoius user needs. it also 
 
 # SetUp/Installation Requirements
 To visit our website and check out our designs, just follow the simple steps below:
