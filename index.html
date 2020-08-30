@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.5.1.js"></script>
     <title>Dilani Studio</title>
 </head>
 
@@ -21,7 +20,7 @@
     <div class="container">
         <h1 class="text-center">ABOUT US</h1>
         <p class="text-center">When you work with us, you are a part of a team of commited collaborators. all
-            aspects of our software development process are interarated, interactive<br> and agile
+            aspects of our software development process are interarated, interactive<br> and agile<br>
             Our approach unifies design, development and product managament to create exceptional.<br><br>
             We star each project by understanding you business goals, the user's needs and the product
             requirements.<br><br>
@@ -31,7 +30,8 @@
     <div id="services">
         <div class="container">
             <h1 class="text-center text-white">SERVICES</h1>
-            <p class="text-center text-white">Before we sign a contract or write a line of code our team will spend the necessary time needed to
+            <p class="text-center text-white pt-5">Before we sign a contract or write a line of code our team will spend
+                the necessary time needed to
                 understand
                 your product vision.<br><br>
                 The outscome of this scoping session is proposal or high-level statement of work.<br><br>
@@ -41,31 +41,40 @@
         </div>
     </div>
     <div class="jumbotron container">
-        <h3 >WHAT WE DO</h3>
+        <h3 class="text-center pb-5">WHAT WE DO</h3>
         <div class="row">
             <div class="col-md">
-                <img src="images/design_icon.png">
-                <p id="p1-hide">Design
-                   <br><br>
+                <div id="design">
+                    <img src="images/design_icon.png">
+                    <p>DESIGN</p>
+                </div>
+                <p id="p1-hide" class="text-center">Design
+                    <br><br>
                     Our design practice offers a full range of services including brand strategy, interaction and visual
-                    design and user experience testing. Throughout your project, our designers create and implement
+                    design and user experience testing.<br> Throughout your project, our designers create and implement
                     visual design and workflows, solicit user feedback and work with you to make sure what gets built is
                     what is needed</p>
             </div>
             <div class="col-md">
-                <img src="images/dev_icon.png">
-                <p id="p2-hide">Development
-                    <br><br>
-                    All engineers are fluent in the latest enterprise, mobile and web development technologies. They
+                <div id="devpt">
+                    <img src="images/dev_icon.png">
+                    <p>DEVELOPMENT</p>
+                </div>
+                <p id="p2-hide" class="">Development
+                    <br>
+                    All engineers are fluent in the latest enterprise, mobile and web development technologies. <br>They
                     collaborate with your team to write, and improve code on a daily basis, using proven practices such
                     as test-driven development and pair programming.</p>
             </div>
             <div class="col-md">
-                <img src="images/product_icon.png">
-                <p id="p3-hide">Product Management
+                <div id="project">
+                    <img src="images/product_icon.png">
+                    <p>PROJECT MANAGEMENT</p>
+                </div>
+                <p id="p3-hide" class="text-center">Product Management
                     <br><br>
                     Planning and development is iterative. Because we are constantly coding and testing, the products we
-                    build are always ready to go live. This iterative process allows for changes as business
+                    build are always ready to go live.<br> This iterative process allows for changes as business
                     requirements evolve.</p>
             </div>
         </div>
@@ -73,7 +82,7 @@
     </div>
     <div class="jumbotron">
         <strong>
-            <h2>PORTIFOLIO</h2>
+            <h2 class="text-center">PORTIFOLIO</h2>
         </strong>
 
         <div class="row">
@@ -90,27 +99,31 @@
         </div>
     </div>
     </div>
-    <div id="contacts">
-        <h1>CONTACT US</h1>
-        <div>
+    <div class="" id="contacts">
+        <h1 class="text-center text-white">CONTACT US</h1>
+        <div id="contact">
             <form action="">
                 <div class="row">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
+                        <input type="text" id="name" class="form-control text-white " placeholder="Name..."
+                            style="background: rgba(255, 255, 255, 0.1);">
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
+                    <div class="col pr-5">
+                        <input type="email" class="form-control text-white" placeholder="Email..."
+                            style="background: rgba(255, 255, 255, 0.1);">
                     </div>
                 </div>
-                <div class="mb-3">
-                    <label for=""></label>
-                    <textarea class="form-control " placeholder="Your message here..." required
-                        style="width :600px; height:200px;"></textarea>
-                </div>
+                <div class="container pl-5">
+                    <br>
+                    <textarea class="form-control text-white " placeholder="Your message here..." required
+                        style="width :1000px; height:200px;  background: rgba(255, 255, 255, 0.1); color: white;"></textarea>
+                    <button id="submit" class=" p-2 text-center text-white">Submit</button>
+
+                </div><br>
             </form>
         </div>
     </div>
-    <div class="container" id="socials">
+    <div class="container text-center" id="socials">
         <img src="images/twitter.png">
         <img src="images/dribble.png">
         <img src="images/facebook.png">
@@ -121,8 +134,9 @@
         <img src="images/pinterest.png">
         <img src="images/flickr.png">
         <h3></h3>
-        <p>DELANI STUDIO <br>2019</p>
+        <p class="text-center">DELANI STUDIO <br>2019</p>
     </div>
+    <script src="js/jquery-3.5.1.js"></script>
     <script src="js/script.js"></script>
 </body>
 
