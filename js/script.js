@@ -49,7 +49,8 @@ $(document).ready(function getResponse(){
 
 $(document).ready(function(){
     $("#row").hover(function(){
-    
+    ("#row").css("opacity","0.1")
+    ("#project-name").show()
     })
 })
 
