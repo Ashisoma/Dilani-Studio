@@ -46,7 +46,49 @@
     margin-left: 70px;
 }
 
-#row {
+#row1 {
+    justify-items: center;
+    display: flex;
+    margin: 10px;
+    height: 270px;
+}
+#row2 {
+    justify-items: center;
+    display: flex;
+    margin: 10px;
+    height: 270px;
+}
+#row3 {
+    justify-items: center;
+    display: flex;
+    margin: 10px;
+    height: 270px;
+}
+#row4 {
+    justify-items: center;
+    display: flex;
+    height: 270px;
+    margin: 10px;
+}
+#row5 {
+    justify-items: center;
+    display: flex;
+    height: 270px;
+    margin: 10px;
+}
+#row7 {
+    justify-items: center;
+    display: flex;
+    height: 270px;
+    margin: 10px;
+}
+#row8 {
+    justify-items: center;
+    display: flex;
+    height: 270px;
+    margin: 10px;
+}
+#row6 {
     justify-items: center;
     display: flex;
     height: 270px;
@@ -81,6 +123,13 @@ p {
 
 #logo {
     top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%)
+}
+
+#logos {
+    top: 130%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%)
