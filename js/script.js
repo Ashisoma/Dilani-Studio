@@ -48,9 +48,29 @@ $(document).ready(function getResponse(){
 })
 
 $(document).ready(function(){
-    $("#row").hover(function(){
-    ("#row").css("opacity","0.1")
-    ("#project-name").show()
+    $(".work1").hover(function(){
+        $("#hide-1").toggle();
     })
-})
+    $(".work2").hover(function(){
+        $("#hide-2").toggle();
+    })
+    $(".work3").hover(function(){
+        $("#hide-3").toggle();
+    })
+    $(".work4").hover(function(){
+        $("#hide-4").toggle();
+    })
+    $(".work5").hover(function(){
+        $("#hide-5").toggle();
+    })
+    $(".work6").hover(function(){
+        $("#hide-6").toggle();
+    })
+    $(".work7").hover(function(){
+        $("#hide-7").toggle();
+    })
+    $(".work8").hover(function(){
+        $("#hide-8").toggle();
+    })
+});
 

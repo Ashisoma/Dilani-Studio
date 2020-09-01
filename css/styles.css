@@ -73,21 +73,79 @@ p {
 
 #p2-hide {
     display: none;
-    text-align: center;
 }
 
 #p3-hide {
     display: none;
 }
 
- #logo {
+#logo {
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%)
 }
 
-button {
-         
+button {         
     background-color: rgba(0,0,0,0.5);
+}
+
+#hide-1 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+.row {
+    text-align: center;
+
+}
+
+#hide-2 {
+    display: none;
+    position: absolute;
+    color: white;
+}
+
+#hide-1 {
+    display: none;
+    color: white;
+    position: absolute;
+    
+}
+
+#hide-3 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+#hide-4 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+#hide-5 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+#hide-6 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+#hide-7 {
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+#hide-8 {
+    display: none;
+    color: white;
+    position: absolute;
 }
